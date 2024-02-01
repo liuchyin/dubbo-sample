@@ -6,6 +6,10 @@
 dubbo-samples-spring-boot-provider
 
 
+From: 'Alibaba Group' (https://github.com/alibaba)
+  - nacos-client 2.0.2 (http://nacos.io) com.alibaba.nacos:nacos-client:jar:2.0.2
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+
 From: 'an unknown organization'
   - spring-context-support (http://nexus.sonatype.org/oss-repository-hosting.html/spring-context-support) com.alibaba.spring:spring-context-support:jar:1.0.5
 
@@ -15,20 +19,30 @@ From: 'an unknown organization'
     License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
   - Netty/All-in-One (https://netty.io/netty-all/) io.netty:netty-all:jar:4.1.87.Final
     License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
-  - JLine (http://jline.sourceforge.net) jline:jline:jar:0.9.94
-    License: BSD  (LICENSE.txt)
-  - zookeeper  org.apache.zookeeper:zookeeper:pom:3.4.13
+  - Prometheus Java Simpleclient (http://github.com/prometheus/client_java/simpleclient) io.prometheus:simpleclient:bundle:0.15.0
     License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Prometheus Java Span Context Supplier - Common (http://github.com/prometheus/client_java/simpleclient_tracer/simpleclient_tracer_common) io.prometheus:simpleclient_tracer_common:bundle:0.15.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Prometheus Java Span Context Supplier - OpenTelemetry (http://github.com/prometheus/client_java/simpleclient_tracer/simpleclient_tracer_otel) io.prometheus:simpleclient_tracer_otel:bundle:0.15.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Prometheus Java Span Context Supplier - OpenTelemetry Agent (http://github.com/prometheus/client_java/simpleclient_tracer/simpleclient_tracer_otel_agent) io.prometheus:simpleclient_tracer_otel_agent:bundle:0.15.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Reflections (http://github.com/ronmamo/reflections) org.reflections:reflections:jar:0.9.11
+    License: WTFPL  (http://www.wtfpl.net/)    License: The New BSD License  (http://www.opensource.org/licenses/bsd-license.html)
   - SnakeYAML (https://bitbucket.org/snakeyaml/snakeyaml) org.yaml:snakeyaml:bundle:1.30
     License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
-
-From: 'Apache Software Foundation' (http://www.apache.org)
-  - Apache Log4j (http://logging.apache.org/log4j/1.2/) log4j:log4j:bundle:1.2.16
-    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
 
 From: 'Eclipse Foundation' (https://www.eclipse.org)
   - Jakarta Annotations API (https://projects.eclipse.org/projects/ee4j.ca) jakarta.annotation:jakarta.annotation-api:jar:1.3.5
     License: EPL 2.0  (http://www.eclipse.org/legal/epl-2.0)    License: GPL2 w/ CPE  (https://www.gnu.org/software/classpath/license.html)
+
+From: 'FasterXML' (http://fasterxml.com/)
+  - Jackson-annotations (http://github.com/FasterXML/jackson) com.fasterxml.jackson.core:jackson-annotations:bundle:2.13.4
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Jackson-core (https://github.com/FasterXML/jackson-core) com.fasterxml.jackson.core:jackson-core:bundle:2.13.4
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - jackson-databind (http://github.com/FasterXML/jackson) com.fasterxml.jackson.core:jackson-databind:bundle:2.13.4.2
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
 
 From: 'QOS.ch' (http://www.qos.ch)
   - Logback Classic Module (http://logback.qos.ch/logback-classic) ch.qos.logback:logback-classic:jar:1.2.11
@@ -59,12 +73,6 @@ From: 'Spring IO' (https://spring.io/projects/spring-framework)
     License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
 
 From: 'The Apache Software Foundation' (http://www.apache.org/)
-  - Curator Client (http://curator.apache.org/curator-client) org.apache.curator:curator-client:bundle:4.0.1
-    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
-  - Curator Framework (http://curator.apache.org/curator-framework) org.apache.curator:curator-framework:bundle:4.0.1
-    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
-  - Curator Recipes (http://curator.apache.org/curator-recipes) org.apache.curator:curator-recipes:bundle:4.0.1
-    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
   - dubbo-all (https://github.com/apache/dubbo/dubbo) org.apache.dubbo:dubbo:jar:2.7.5
     License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
   - Apache Dubbo Spring Boot :: Auto-Configure (https://github.com/apache/dubbo-spring-boot-project/dubbo-spring-boot-parent/dubbo-spring-boot-autoconfigure) org.apache.dubbo:dubbo-spring-boot-autoconfigure:jar:2.7.5
@@ -73,11 +81,17 @@ From: 'The Apache Software Foundation' (http://www.apache.org/)
     License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
   - Apache Dubbo Spring Boot :: Starter (https://github.com/apache/dubbo-spring-boot-project/dubbo-spring-boot-parent/dubbo-spring-boot-starter) org.apache.dubbo:dubbo-spring-boot-starter:jar:2.7.5
     License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
-  - Apache Yetus - Audience Annotations (https://yetus.apache.org/audience-annotations) org.apache.yetus:audience-annotations:jar:0.5.0
+  - Apache HttpAsyncClient (http://hc.apache.org/httpcomponents-asyncclient) org.apache.httpcomponents:httpasyncclient:jar:4.1.5
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache HttpClient (http://hc.apache.org/httpcomponents-client-ga) org.apache.httpcomponents:httpclient:jar:4.5.14
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache HttpCore (http://hc.apache.org/httpcomponents-core-ga) org.apache.httpcomponents:httpcore:jar:4.4.16
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache HttpCore NIO (http://hc.apache.org/httpcomponents-core-ga) org.apache.httpcomponents:httpcore-nio:jar:4.4.16
     License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
 
 From: 'The Apache Software Foundation' (https://www.apache.org/)
-  - dubbo-dependencies-zookeeper (https://www.apache.org/dubbo-dependencies-zookeeper/) org.apache.dubbo:dubbo-dependencies-zookeeper:pom:2.7.5
+  - Apache Commons Codec (https://commons.apache.org/proper/commons-codec/) commons-codec:commons-codec:jar:1.15
     License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
   - dubbo-samples-spring-boot-interface (https://www.apache.org/dubbo-samples-spring-boot/dubbo-samples-spring-boot-interface/) org.apache.dubbo:dubbo-samples-spring-boot-interface:jar:1.0-SNAPSHOT
     License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
