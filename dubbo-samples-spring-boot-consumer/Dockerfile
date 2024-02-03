@@ -10,6 +10,7 @@ ENV LANG zh_CN.UTF-8
 ENV LANGUAGE zh_CN
 ENV LC_ALL zh_CN.UTF-8
 
-EXPOSE 20880 
+EXPOSE 20880
+EXPOSE 8099
 
 CMD $JAVA_HOME/bin/java -Dfile.encoding=utf-8 -Duser.timezone=Asia/Shanghai -jar /gts/dubbo-samples-consumer.jar
